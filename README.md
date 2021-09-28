@@ -1,5 +1,5 @@
 <img src=img/Anchore-K8s.png> 
-<img src=img/Anchore.png> 
+<img src=img/Anchore-schema.png> 
 
 
 <table>
