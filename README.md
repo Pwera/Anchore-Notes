@@ -265,6 +265,8 @@ anchore-cli evaluate check docker.io/library/centos@sha256:191c883e479a7da2362b2
 <td> Install admission controller
 <td>
 
+<img src="img/AdmissionController.png">
+
 ``` bash
 
 sed 's@{{ANCHORE_CLI_URL}}@'"${ANCHORE_CLI_URL}"'@; s@{{ANCHORE_CLI_USER}}@'"${ANCHORE_CLI_USER}"'@; s@{{ANCHORE_CLI_PASS}}@'"${ANCHORE_CLI_PASS}"'@' image-scanning-admission-controller.yaml > image-scanning-admission-controller.yaml
